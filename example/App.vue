@@ -67,6 +67,10 @@
                 text: 'CheckboxGroup'
               },
               {
+                path: '/checker',
+                text: 'Checker'
+              },
+              {
                 path: '/radio',
                 text: 'Radio'
               },
@@ -186,6 +190,10 @@
               {
                 path: '/scroll-nav',
                 text: 'ScrollNav'
+              },
+              {
+                path: '/recycle-list',
+                text: 'RecycleList'
               }
             ]
           }

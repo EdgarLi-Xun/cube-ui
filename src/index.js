@@ -1,6 +1,8 @@
 import {
   /* eslint-disable no-unused-vars */
   Style,
+  // locale
+  Locale,
   // basic
   Button,
   Loading,
@@ -11,6 +13,7 @@ import {
   // form
   Checkbox,
   CheckboxGroup,
+  Checker,
   Radio,
   RadioGroup,
   Input,
@@ -41,6 +44,7 @@ import {
   Sticky,
   ScrollNav,
   ScrollNavBar,
+  RecycleList,
   // module
   BetterScroll,
   createAPI
@@ -48,6 +52,8 @@ import {
 import { processComponentName } from './common/helpers/util'
 
 const components = [
+  // locale
+  Locale,
   // basic
   Button,
   Loading,
@@ -58,6 +64,7 @@ const components = [
   // form
   Checkbox,
   CheckboxGroup,
+  Checker,
   Radio,
   RadioGroup,
   Input,
@@ -87,7 +94,8 @@ const components = [
   Swipe,
   Sticky,
   ScrollNav,
-  ScrollNavBar
+  ScrollNavBar,
+  RecycleList
 ]
 
 function install(Vue) {

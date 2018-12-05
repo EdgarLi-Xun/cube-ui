@@ -1,4 +1,6 @@
 import Style from './modules/style'
+// locale
+import Locale from './modules/locale'
 
 // Basic
 import Button from './modules/button'
@@ -11,6 +13,7 @@ import TabPanels from './modules/tab-panels'
 // Form
 import Checkbox from './modules/checkbox'
 import CheckboxGroup from './modules/checkbox-group'
+import Checker from './modules/checker'
 import RadioGroup from './modules/radio-group'
 import Input from './modules/input'
 import Textarea from './modules/textarea'
@@ -42,6 +45,7 @@ import Swipe from './modules/swipe'
 import Sticky from './modules/sticky'
 import ScrollNav from './modules/scroll-nav'
 import ScrollNavBar from './modules/scroll-nav-bar'
+import RecycleList from './modules/recycle-list'
 
 // module
 import BetterScroll from './modules/better-scroll'
@@ -58,10 +62,13 @@ const StickyEle = Sticky.Ele
 const ScrollNavPanel = ScrollNav.Panel
 const Tab = TabBar.Tab
 const TabPanel = TabPanels.Panel
+const CheckerItem = Checker.Item
 
 export {
   // style
   Style,
+  // locale
+  Locale,
   // basic
   Button,
   Loading,
@@ -74,6 +81,8 @@ export {
   // form
   Checkbox,
   CheckboxGroup,
+  CheckerItem,
+  Checker,
   Radio,
   RadioGroup,
   Input,
@@ -112,6 +121,7 @@ export {
   ScrollNavPanel,
   ScrollNav,
   ScrollNavBar,
+  RecycleList,
   // module
   BetterScroll,
   createAPI
